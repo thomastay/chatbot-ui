@@ -43,8 +43,8 @@ export const usePromptAndCommand = () => {
       setIsAssistantPickerOpen(true)
       setAtCommand(atMatch[1])
     } else if (slashMatch) {
-      setIsPromptPickerOpen(true)
-      setSlashCommand(slashMatch[1])
+      // setIsPromptPickerOpen(true)
+      // setSlashCommand(slashMatch[1])
     } else if (hashtagMatch) {
       setIsFilePickerOpen(true)
       setHashtagCommand(hashtagMatch[1])
