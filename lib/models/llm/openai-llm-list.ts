@@ -67,4 +67,4 @@ const GPT3_5Turbo: LLM = {
   }
 }
 
-export const OPENAI_LLM_LIST: LLM[] = [GPT4Turbo, GPT4Vision, GPT4, GPT3_5Turbo]
+export const OPENAI_LLM_LIST: LLM[] = [GPT4Turbo, GPT4Vision, GPT3_5Turbo]
